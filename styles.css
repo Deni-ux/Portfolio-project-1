@@ -130,6 +130,10 @@ p {
     margin:180px 80px;
     padding:80px;
 }
+.container-work p a{
+  text-decoration: none;
+  color:var(--secondary-color);
+}
 
 footer{
   background: #edd767;
@@ -137,6 +141,12 @@ footer{
    box-shadow: var(--box-shadow);
     
 } 
+ 
+footer p a{
+  text-decoration: none;
+  color: whitesmoke;
+  
+}
 footer .social-links a{
   margin:0px 40px; 
   color:#000;
