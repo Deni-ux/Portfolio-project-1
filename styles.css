@@ -1,0 +1,187 @@
+:root{
+    --primary-font-family:"Montserrat", sans-serif;
+    --default-font-family:"Open Sans", sans-serif;
+    --primary-color:#edd767;
+    --secondary-color:#59bac3;
+    --heading-color: #0c2333;
+  --default-test-color: #001833;
+    --box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item{
+    padding:0 20px ;
+    font-size: 20px;
+    font-family: var(--default-font-family);
+}
+
+.logo{
+    max-height: 30px;  
+    }
+h1,
+h2,
+h3 {
+  font-family: var(--primary-font-family);
+  text-shadow: 5px 5px 10px rgba(159, 159, 159, 0.4) ;
+  color: var(--heading-color);
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-weight: 300;
+  color: var(--default-test-color);
+  font-size: 22px;
+  line-height: 30px;
+}
+.container{
+     padding: 120px 20px;
+     
+     
+}
+
+
+.hero{
+   margin:0;
+   background-image: url('images/Vorderrhein.svg'); 
+}
+.hero h1{
+    font-size: 92px;
+    
+}
+
+ .intro{
+     margin-top: 160px;
+      
+} 
+
+
+
+.section{
+   margin-bottom: 80px;
+   padding: 30px;
+
+} 
+.btn{
+  border-radius: 8px;
+  line-height: 27px;
+  font-size: 18px;
+  padding: 10px 25px;
+  font-family:var(--default-font-family);
+  box-shadow: var(--box-shadow);
+  outline: none;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.btn-branding {
+  background-color: var(--primary-color);
+  color: white;
+  margin:60px;
+}
+.btn-launch{
+    margin: 40px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+.btn-branding:hover,
+.btn-branding:focus ,
+.btn-app:hover,
+.btn-app:focus
+.btn.launch:hover,
+.btn-launch:focus{
+  filter: brightness(110%);
+  box-shadow: 0 0.5em 0.5em -0.4em var(--box-shadow);
+  transform: translateY(-0.25em);
+}
+.btn-app {
+
+  color:var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  
+  margin-top: 40px;
+ 
+}
+
+.work-gallery{
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+.coder{
+    margin-top:0;
+    padding: 0;
+}
+   
+
+.signature{
+    font-family: 'WindSong', cursive;
+    text-align: center;
+}
+
+.wrapper{
+  width: auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: var(--box-shadow);
+}
+.container-work {
+    background-image: url("images/Vorderrhein.svg");
+}
+.container-work .wrapper{ 
+    margin:180px 80px;
+    padding:80px;
+}
+
+footer{
+  background: #edd767;
+   padding: 80px;
+   box-shadow: var(--box-shadow);
+    
+} 
+footer .social-links a{
+  margin:0px 40px; 
+  color:#000;
+  background-color: whitesmoke;
+  font-size: 24px;
+  padding:14px 20px;
+  border-radius: 50%;
+  transition:all 100ms ease-in-out;
+
+}
+footer .social-links a:hover{
+  color:white;
+  background-color:#000;
+}
+
+
+@media (max-width: 900px) {
+.container{
+    padding: 60px 20px;
+    margin:0 20px;
+  }
+  .hero h1 {
+    font-size: 42px;
+  }
+  .hero h2 {
+    font-size: 28px;
+  }
+  .intro{
+      margin-top:40px;
+  }
+  
+  p{
+      font-size: 18px;
+      line-height: 20px;
+  }
+ .btn-launch{
+     margin: 0;
+     
+ }
+
+  .btn-branding{
+      margin-top:10px;
+  }
+
+ 
+
+  
+}
