@@ -123,17 +123,18 @@ p {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: var(--box-shadow);
 }
-.container-work {
+.container-contact {
     background-image: url("images/Vorderrhein.svg");
 }
-.container-work .wrapper{ 
+.container-contact .wrapper{ 
     margin:180px 80px;
     padding:80px;
 }
-.container-work p a{
+.container-contact p a{
   text-decoration: none;
   color:var(--secondary-color);
 }
+
 
 footer{
   background: #edd767;
@@ -163,10 +164,11 @@ footer .social-links a:hover{
 }
 
 
+
 @media (max-width: 900px) {
 .container{
     padding: 60px 20px;
-    margin:0 20px;
+    margin:0;
   }
   .hero h1 {
     font-size: 42px;
@@ -189,9 +191,25 @@ footer .social-links a:hover{
 
   .btn-branding{
       margin-top:10px;
+  } 
+  
+  .container-contact{
+    margin:auto;
+    padding-top:120px;
+    
+  }
+  .container-contact .wrapper{
+    margin:0 22px;
+    padding:20px;
   }
 
- 
+ .container-contact h1{
+   font-size: 22px;
+ }
+
+ .container-contact a{
+   font-size: 14px;
+ }
 
   
 }
